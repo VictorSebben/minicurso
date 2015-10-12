@@ -1,0 +1,2 @@
+* Xampp:
+** Postgres: descomentar linha extension=php_pdo_pgsql.dll no php.ini
