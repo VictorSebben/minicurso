@@ -1,7 +1,7 @@
 <?php
 if (isset($_POST['submit'])) {
     // filter_input
-    $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_SPECIAL_CHARS);
+    $name = $_POST['name'];
     echo $name;
 }
 ?>
