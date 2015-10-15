@@ -1,0 +1,53 @@
+body {
+    width: 800px;
+    margin: 0 auto;
+    font: 15px Verdana, "sans-serif";
+}
+
+form input[type=text] {
+    width: 500px;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(167, 167, 167, 0.60);
+}
+
+input[type=text]:focus {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(167, 167, 167, 0.60);
+}
+
+form input[type=submit] {
+    padding: 2px 10px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.field {
+    display: inline-block;
+}
+
+table {
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table thead {
+    font-weight: bold;
+    text-align: left;
+}
+
+thead > tr > th, thead > tr > td {
+    border-bottom-width: 2px;
+}
+
+table th, table tr, table td {
+    line-height: 1.42857;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+hr {
+    margin: 20px 0;
+    color: #ddd;
+}
