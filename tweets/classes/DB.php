@@ -1,6 +1,6 @@
 <?php
 
-namespace mysys\classes;
+namespace tweets\classes;
 
 use \PDO;
 use \PDOException;

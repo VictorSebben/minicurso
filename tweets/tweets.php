@@ -1,6 +1,6 @@
 <?php
 
-use mysys\classes\DB;
+use tweets\classes\DB;
 
 require_once 'init.php';
 
