@@ -10,7 +10,7 @@ class DB {
     /**
      * @var PDO
      */
-    protected $pdo;
+    public $pdo;
     protected static $instance;
     protected $error;
 
