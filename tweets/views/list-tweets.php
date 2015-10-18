@@ -13,7 +13,7 @@
     <table>
         <thead>
         <tr>
-            <th>Text</th>
+            <th><a href="<?= get_link_order_by('text') ?>">Texto</a></th>
             <th>User</th>
         </tr>
         </thead>
@@ -34,8 +34,8 @@
 <div class="filter">
     <form action="tweets.php" method="post">
         <div class="field">
-            <label for="desc">Descrição</label>
-            <input type="text" name="desc" id="desc" autocomplete="on">
+            <label for="text">Texto</label>
+            <input type="text" name="text" id="text" autocomplete="on">
         </div>
 
         <input type="submit" value="Buscar" name="submit">

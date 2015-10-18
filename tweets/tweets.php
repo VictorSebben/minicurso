@@ -3,6 +3,7 @@
 use tweets\classes\DB;
 
 require_once 'init.php';
+require_once 'lib.php';
 
 try {
     $sql = "SELECT t.text, u.username
@@ -12,7 +13,7 @@ try {
                AND u.id = 1 ";
 
     if (isset($_POST['submit'])) {
-        $sql .= "AND t.text ~* '{$_POST['desc']}' ";
+        $sql .= "AND t.text ~* '{$_POST['text']}' ";
     }
 
     $db = DB::getInstance();
