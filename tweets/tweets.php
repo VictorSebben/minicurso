@@ -16,6 +16,10 @@ try {
         $sql .= "AND t.text ~* '{$_POST['text']}' ";
     }
 
+    if (isset($_GET['ord'])) {
+        $sql .= " ORDER BY {$_GET['ord']} {$_GET['dir']}";
+    }
+
     $db = DB::getInstance();
 
     $db->getList($sql);
